@@ -18,24 +18,27 @@ def peno(player_name):
 	raw_input("")
 	return score
 
-
+team1 = ['Gary Doherty','Phil Babb','Ian Harte','Clinton Morrison','Roy Keane']
+team2 = ['Wayne Rooney','Ray Parlour','Darius Vassel','Paul Gascoigne','Francis Jeffers']
 raw_input("")	
 print "\n"	
-print "Ireland"	
-for j in range(1, 6):
-	print "Player %d "%j
+print "IRELAND"
+
+for i in range(0, 5):
+	print "%s "%team1[i]
 raw_input("")
-print "\nEngland"
-for j in range(6, 11):
-	print "Player %d"%j
+print "\nENGLAND"
+
+for i in range(0, 5):
+	print "%s "%team2[i]
 print "\n"
 score1=0
 score2=0
 raw_input("")
-for j in range(1, 6):
-	scored1 = peno("[Ireland] Player %d"%j)
+for i in range(0, 5):
+	scored1 = peno("[Ireland] %s "%team1[i])
 	print "\n"
-	scored2 = peno("[England] Player %d"%(j+5))
+	scored2 = peno("[England] %s "%team2[i])
 	if(scored1 == True):
 		score1+=1
 	if(scored2 == True):
@@ -47,7 +50,7 @@ if score1>score2:
 	print("Ireland win!!!")
 elif score2>score1:
 	print("England win!!!")
-elif score1=score2:
+elif score1==score2:
 	print("Its a draw...sorry havent made sudden death yet!!")
 
 print("%d-%d"%(score1,score2))
