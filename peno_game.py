@@ -3,7 +3,7 @@ import random
 
 
 def peno(player_name):
-	i = random.choice(['l'])
+	i = random.choice(['l', 'r', 'c','saved'])
 	score = False
 	print "%s steps up" % player_name
 	print "\n"
