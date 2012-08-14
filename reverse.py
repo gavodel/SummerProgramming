@@ -1,6 +1,8 @@
 #python -i "$(FULL_CURRENT_PATH)"
 def reverse(word):
-	newstring = word[::-1]
+	newstring = ""
+	for y in word:
+		newstring = y + newstring
 	return newstring
 	
 
