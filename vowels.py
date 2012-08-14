@@ -1,13 +1,13 @@
 def vowel(letter):
-	i=letter
-	if i in ['a','e','i','o','u']:
+	
+	if letter in ['a','e','i','o','u']:
 		return True 
 	else:
 		return False 
 
 		
 j = vowel(raw_input(""))
-if j ==True:
+if j:
 	print("vowel")
 else:
 	print("not vowel")
