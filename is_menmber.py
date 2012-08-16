@@ -1,6 +1,6 @@
 def is_member(x,a):
 	for i in a:
-		if i == "%s"%x:
+		if i == x:
 			return True
 		else:
 			return False
