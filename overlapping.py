@@ -3,10 +3,10 @@ def overlapping(a,b):
 		for j in b:
 			if i == j:
 				return True
-			else:
-				return False
+			
+	return False
 
-y=overlapping('gavin','great')
+y=overlapping('vain','great')
 	
 if y:
 	print "overlapping letters"
