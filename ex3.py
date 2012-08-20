@@ -9,9 +9,9 @@ def right_justify(name):
 #print right_justify(raw_input(" "))	
 def max( num1, num2):
 	if num1<num2:
-		return num1
-	if num2<num1:
 		return num2
+	if num2<num1:
+		return num1
 	if num1==num2:
 		return num2
 def max3( a,b,c):
@@ -22,14 +22,7 @@ def max3( a,b,c):
 		return big
 
 		
-def brainmelt(x, y):
-	y = x + y
 
-def hello(name,name2):
-	return "hello %s and %s !" %(name, name2)
 
-def word():
-	return 'gavin'
 
-print hello(word(),word())
 	
