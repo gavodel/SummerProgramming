@@ -6,8 +6,3 @@ def vowel(letter):
 		return False 
 
 		
-j = vowel(raw_input(""))
-if j:
-	print("vowel")
-else:
-	print("not vowel")

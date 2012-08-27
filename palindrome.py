@@ -1,5 +1,6 @@
 #python -i "$(FULL_CURRENT_PATH)"
-def palindrome(word):
+def palindrome(xword):
+	word = xword.lower().replace(" ",'')
 	newstring = ""
 	for y in word:
 		newstring = y + newstring
@@ -8,12 +9,7 @@ def palindrome(word):
 		return True
 	else:
 		return False
+	
 
-y = palindrome('radar')
-
-if y:
-	print "palindrome"
-else:
-	print "not palindrome"
 
 	

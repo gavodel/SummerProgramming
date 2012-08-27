@@ -6,9 +6,5 @@ def char_freq(word):
 			u[key] =  1
 		else:
 			u[key] = u[key] + 1
-	return u
-	
-
-y = char_freq("abbabcbdbabdbdbabababcbcbab")
-for k, v in y.iteritems():
+	for k, v in u.iteritems():
 		print k, v
