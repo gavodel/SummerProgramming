@@ -7,4 +7,5 @@ y = f.read()
 
 char_freq(y)
 
+
 f.close()
