@@ -33,7 +33,7 @@ def print_team(team_name, team):
 	raw_input("")
 
 print "PENALTY GAME"
-team1 = ['Wayne Rooney','Ashley Young','Nani','Javier Hernadez','Ryan Giggs']
+team1 = ['Wayne Rooney','Robin Van Persie','Nani','Javier Hernadez','Ryan Giggs']
 team2 = ['Xavi Hernandez','Lionel Messi','Andres Iniesta','Cesc Fabregas','David Villa']
 raw_input("")	
 print "\n"	
